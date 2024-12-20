@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar logo*/
+.navbar{
+    background-color:black;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+    
+}
+.logo{
+    background-image:url("https://th.bing.com/th/id/OIP.kzLCBUxBoe3vYpPeziF3XgHaEY?w=278&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size:cover;
+    height:50px;
+    width:100px;
+   
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*navbar address*/
+.add-icon{
+    color: white;
+    font-size: 0.85rem;
+    display:flex;
+}
+
+
+.add-1{
+    color: white;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left:15px;
+}
+
+.add-2{
+    color: white;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left:5px;
+}
+/*navbar select*/
+.nav-search{
+    display:flex;
+}
+.everything{
+    height:40px;
+    width:55px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    font-size: 15px;
+}
+
+input{
+    height:35px;
+    width:400px;
+    
+
+}
+.search-icon{
+    color: white;
+    font-size: 0.85rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: rgb(187, 135, 24);
+    color:white;
+    height:40px;
+    width:55px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+.search{
+    text-decoration: none;
+    color:white;
+}
+/* navbar language */
+.lang{
+    font-size: 2px;;
+}
+.lang-icon{
+    background-color: black;
+}
+.language{
+    display:flex;
+    margin-bottom: 15px;
+    margin-right:10px;
+    margin-top:20px;
+    margin-left: 10px;;
+    height:20px;
+    width:35px;
+    font-size: x-small;
+    font-weight: bold;
+}
+/* navbar hello/signin*/
+.hello{
+    text-decoration:none;
+    color:white;
+    font-size: 14px;
+}
+.accounts{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* navbar Returns & orders */
+.return{
+    text-decoration:none;
+    color:white;
+    font-size: 14px;
+}
+.order{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*cart*/
+.nav-cart{
+    display:flex;
+    color:white;
+    font-size:30px;
+}
+.cart{
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+
+/* panel */
+.panel{
+    height:40px;
+    background-color: rgb(51, 51, 104);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.click{
+    border: 1.5px solid transparent;
+}
+.click:hover{
+    border: 1.5px solid white;
+}
+/* panel 1*/
+.panel1{
+    font-size:20px;
+    color:white;
+}
+.all1{
+    text-decoration: none;
+    color:white;
+}
+/* panel 2*/
+.fresh{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 3*/
+.MX{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 4*/
+.sell{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 5*/
+.best{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 6*/
+.today{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 7*/
+.mobile{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 8*/
+.customer{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 9*/
+.prime{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+/* panel 10*/
+.electric{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
