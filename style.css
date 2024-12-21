@@ -10,7 +10,7 @@ body {
 }
 /* navbar logo*/
 .navbar{
-    background-color:black;;
+    background-color:#232F3E;
     height:60px;
     display:flex;
     align-items:center;
@@ -23,8 +23,10 @@ body {
     
 }
 .logo{
-    background-image:url("https://th.bing.com/th/id/OIP.kzLCBUxBoe3vYpPeziF3XgHaEY?w=278&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-image:url("https://th.bing.com/th?id=OIP.T6UN4S8JqRmh_9o-nQ7M4gHaEk&w=318&h=196&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+    mix-blend-mode:lighten;
     background-size:cover;
+    mix-blend-mode: lighten;
     height:50px;
     width:100px;
    
@@ -97,7 +99,7 @@ input{
     font-size: 2px;;
 }
 .lang-icon{
-    background-color: black;
+    background-color:#232F3E;
 }
 .language{
     display:flex;
@@ -432,6 +434,93 @@ li{
 }
 /* footer last */
 .footerlast{
-    height:200px;
+    height:120px;
     background-color: #232F3E;
+    border:0.25px solid grey;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.last1 img{
+    height:50px;
+    mix-blend-mode:lighten;
+    margin-top:30px;
+}
+.last1{
+    display:flex;
+}
+
+.eng{
+    height:25px;
+    width: 100px;
+    border:1px solid grey;
+    margin-top:40px;
+    margin-left:15px;
+}
+.eng p{
+    font-size:12px;
+    color:white;
+    text-align: center;
+    padding-top:5px;
+
+}
+.eng1{
+    width:20px;
+    margin-left:10px;
+    height:10px;
+}
+.ind{
+    height:25px;
+    width: 100px;
+    border:1px solid grey;
+    margin-top:40px;
+    margin-left:15px;
+}
+.ind p{
+    font-size:12px;
+    color:white;
+    text-align: center;
+    padding-top:5px;
+}
+/* close */
+.close{
+    height: 250px;
+    background-color: #0e161e;
+    padding-top:-30px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.close ul{
+    margin-top: 20px;
+    font-size: 12px;
+}
+ul a{
+    text-decoration: none;
+    color:white;
+}
+ul:hover{
+    text-decoration: underline;
+}
+/* close 1 */
+.close1{
+    margin-top: -60px;
+    font-size: 12px;
+    margin-left:400px;
+}
+.close2{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    margin-left:100px;
+}
+.close1 a{
+    text-decoration: none;
+    color: white;
+}
+.close3{
+    margin-left: 27px;
 }
